@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stackly</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-login">
+  <nav class="nav-wrapper">
+    <div class="nav-container">
+      <div class="logo-combo">
+        <a href="index.html" style="display: flex; align-items: center; gap: 0.3rem; text-decoration: none;">
+          <img src="assets/logo.webp" alt="Stackly logo" class="logo-img-white">
+          <span class="logo-text">Stackly</span>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li class="nav-dropdown">
+          <a href="index.html" class="dropdown-trigger">Home</a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="home2.html">Home 2</a></li>
+          </ul>
+        </li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+      <div class="menu-toggle"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section-dark page-hero">
+      <div class="hero-full">
+        <div class="hero-bg img-overlay">
+          <img src="assets/b11.webp" alt="Login - Replace with your image">
+        </div>
+        <div class="container hero-content">
+          <span class="badge reveal">Member Access</span>
+          <h1 class="section-title reveal">Welcome Back</h1>
+          <p class="section-subtitle reveal" style="max-width: 450px;">Sign in to access your Stackly account and personalized resources.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light">
+      <div class="container reveal">
+        <div class="split-img-right" style="align-items: flex-start;">
+          <div class="reveal-left" style="max-width: 420px;">
+            <form style="background: var(--gray-900); padding: 2rem; border-radius: 16px; border: 1px solid rgba(255,255,255,0.06);">
+              <h2 style="font-family: var(--font-display); text-align: center; margin-bottom: 1.5rem; color: var(--white);">Sign In</h2>
+              <input type="email" placeholder="Email address" required style="margin-bottom: 1rem;">
+              <input type="password" placeholder="Password" required style="margin-bottom: 1rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <label style="color: var(--gray-400); font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem;"><input type="checkbox"> Remember me</label>
+                
+                              <a href="#" id="forgot-password-link" style="color: var(--white); font-size: 0.9rem;">Forgot password?</a>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">Login</button>
+              <p style="text-align: center; margin-top: 1rem; color: var(--gray-400); font-size: 0.9rem;">Don't have an account? <a href="sign-up.html" style="color: var(--white);">Sign up</a></p>
+            </form>
+          </div>
+          <div class="img-wrap reveal-right" style="aspect-ratio: 4/5; flex: 1; max-width: 450px;">
+            <img src="assets/b2.webp" alt="Login - Replace with your image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+  
+
+    
+    <section class="section-dark">
+      <div class="container reveal">
+        <h2 class="section-title">Social Login</h2>
+        <p class="section-subtitle" style="margin-bottom: 1.5rem;">Sign in quickly with your preferred account.</p>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <button class="btn btn-outline anim-float" id="google-login-btn">Continue with Google</button>
+          <button class="btn btn-outline" id="apple-login-btn">Continue with Apple</button>
+        </div>
+      </div>
+    </section>
+
+
+ 
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-combo"><img src="assets/logo.webp" alt="Stackly logo" class="logo-img-white"><span class="logo-text">Stackly</span></div>
+        <p>Your guide to intentional living. Wellness, design, and everyday habits for a better life.</p>
+        <div class="footer-media" style="margin-top: 1rem; display: flex; gap: 1rem; align-items: center;">
+          <a href="404.html" aria-label="Instagram" style="display: inline-flex; align-items: center;"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></a>
+          <a href="404.html" aria-label="Twitter" style="display: inline-flex; align-items: center;"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.43.36a9.09 9.09 0 0 1-2.88 1.1A4.52 4.52 0 0 0 16.11 0c-2.5 0-4.52 2.02-4.52 4.52 0 .35.04.7.11 1.03C7.69 5.4 4.07 3.7 1.64 1.15c-.38.65-.6 1.4-.6 2.2 0 1.52.77 2.86 1.94 3.65A4.48 4.48 0 0 1 .96 6v.06c0 2.13 1.52 3.91 3.54 4.31-.37.1-.76.16-1.16.16-.28 0-.55-.03-.81-.08.55 1.72 2.16 2.97 4.07 3A9.05 9.05 0 0 1 0 19.54a12.8 12.8 0 0 0 6.92 2.03c8.3 0 12.85-6.88 12.85-12.85 0-.2 0-.39-.01-.58A9.22 9.22 0 0 0 23 3z"/></svg></a>
+          <a href="404.html" aria-label="Facebook" style="display: inline-flex; align-items: center;"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M18 2h-3a4 4 0 0 0-4 4v3H7v4h4v8h4v-8h3l1-4h-4V6a1 1 0 0 1 1-1h3z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-links"><h4>Explore</h4><ul><li><a href="index.html">Home</a></li><li><a href="about-us.html">About</a></li><li><a href="service.html">Services</a></li></ul></div>
+      <div class="footer-links"><h4>Connect</h4><ul><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li><li><a href="login.html">Login</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">&copy; 2025 Stackly. All rights reserved.</div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var googleBtn = document.getElementById('google-login-btn');
+      var appleBtn = document.getElementById('apple-login-btn');
+      var forgotLink = document.getElementById('forgot-password-link');
+      if (googleBtn) googleBtn.addEventListener('click', function() { window.location.href = '404.html'; });
+      if (appleBtn) appleBtn.addEventListener('click', function() { window.location.href = '404.html'; });
+      if (forgotLink) forgotLink.addEventListener('click', function(e) { e.preventDefault(); window.location.href = '404.html'; });
+    });
+  </script>
+</body>
+</html>
